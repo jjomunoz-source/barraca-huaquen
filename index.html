@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barraca de Fierro Huaquén | Fierro, ferretería y trabajos metálicos</title>
+    <meta
+      name="description"
+      content="Barraca de Fierro Huaquén: venta de fierro, trabajos metálicos, ferretería y soluciones a medida para hogares, obras y negocios. Solicita presupuesto por WhatsApp."
+    />
+    <meta name="theme-color" content="#121212" />
+    <meta property="og:title" content="Barraca de Fierro Huaquén" />
+    <meta
+      property="og:description"
+      content="Venta de fierro, trabajos metálicos, ferretería y soluciones a medida. Presupuestos por WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://barracahuaquen.cl/" />
+    <link rel="canonical" href="https://barracahuaquen.cl/" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Cabecera">
+      <a class="brand" href="#inicio" aria-label="Barraca de Fierro Huaquén">
+        <span class="brand-mark">BH</span>
+        <span>Barraca Huaquén</span>
+      </a>
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#presupuesto">Presupuesto</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">barracahuaquen.cl</p>
+          <h1>Barraca de Fierro Huaquén</h1>
+          <p class="hero-subtitle">
+            Venta de fierro, trabajos metálicos, ferretería y soluciones a medida para hogares,
+            obras y negocios.
+          </p>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button button-primary" href="#presupuesto">Solicitar presupuesto</a>
+            <a
+              class="button button-secondary"
+              href="https://wa.me/56950159793?text=Hola%20Barraca%20de%20Fierro%20Huaqu%C3%A9n%2C%20quiero%20solicitar%20un%20presupuesto."
+              target="_blank"
+              rel="noopener"
+            >
+              Escribir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Servicios principales">
+          <div class="steel-card">
+            <span class="card-number">01</span>
+            <strong>Fierro para obra, taller y hogar</strong>
+            <p>Materiales, trabajos metálicos y accesorios con atención directa y confiable.</p>
+          </div>
+          <div class="metal-grid" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="section services" id="servicios">
+        <div class="section-heading">
+          <p class="eyebrow">Servicios</p>
+          <h2>Soluciones firmes para construir, reparar y equipar</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon">V</span>
+            <h3>Venta de fierro</h3>
+            <p>Perfiles, cañerías, planchas y más, con orientación para elegir el material correcto.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">T</span>
+            <h3>Trabajos metálicos</h3>
+            <p>Portones, rejas, estructuras y soldaduras con terminaciones resistentes y funcionales.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">C</span>
+            <h3>Carro de arrastre</h3>
+            <p>Fabricación, reparación y apoyo para soluciones de carga y transporte.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">F</span>
+            <h3>Ferretería y accesorios</h3>
+            <p>Insumos, herramientas y complementos para avanzar con seguridad en cada proyecto.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote-section" id="presupuesto">
+        <div class="quote-copy">
+          <p class="eyebrow">Presupuesto</p>
+          <h2>Cuéntanos qué necesitas y lo enviamos directo a WhatsApp</h2>
+          <p>
+            Complete los datos principales y genere una solicitud clara para cotizar materiales,
+            trabajos metálicos o accesorios.
+          </p>
+        </div>
+        <form class="quote-form" id="quoteForm">
+          <label>
+            Nombre
+            <input type="text" name="nombre" autocomplete="name" placeholder="Tu nombre" required />
+          </label>
+          <label>
+            Teléfono
+            <input type="tel" name="telefono" autocomplete="tel" placeholder="+56 9 ..." required />
+          </label>
+          <label>
+            Tipo de solicitud
+            <select name="tipo" required>
+              <option value="">Selecciona una opción</option>
+              <option>Venta de fierro</option>
+              <option>Trabajo metálico</option>
+              <option>Carro de arrastre</option>
+              <option>Ferretería y accesorios</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>
+            Medidas aproximadas
+            <input type="text" name="medidas" placeholder="Ej: 2 x 3 m, 4 unidades, 6 metros" />
+          </label>
+          <label class="full-field">
+            Mensaje
+            <textarea
+              name="mensaje"
+              rows="5"
+              placeholder="Describe el material, trabajo o accesorio que necesitas"
+              required
+            ></textarea>
+          </label>
+          <button class="button button-primary full-field" type="submit">Generar mensaje por WhatsApp</button>
+          <p class="form-note full-field" id="formNote" role="status"></p>
+        </form>
+      </section>
+
+      <section class="section why" id="por-que-elegirnos">
+        <div class="section-heading">
+          <p class="eyebrow">Por qué elegirnos</p>
+          <h2>Trabajo serio, respuesta clara y soluciones que duran</h2>
+          <p>
+            En Barraca de Fierro Huaquén buscamos entregar atención cercana, materiales útiles para
+            distintos tipos de proyecto y soluciones metálicas pensadas para durar.
+          </p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card">
+            <span>01</span>
+            <h3>Atención directa</h3>
+            <p>Comunicación simple para entender su necesidad y orientar cada cotización.</p>
+          </article>
+          <article class="why-card">
+            <span>02</span>
+            <h3>Soluciones a medida</h3>
+            <p>Trabajos metálicos pensados para hogares, obras, talleres y negocios.</p>
+          </article>
+          <article class="why-card">
+            <span>03</span>
+            <h3>Materiales y accesorios</h3>
+            <p>Fierro, ferretería e insumos útiles para avanzar con proyectos resistentes.</p>
+          </article>
+          <article class="why-card">
+            <span>04</span>
+            <h3>Cotización rápida por WhatsApp</h3>
+            <p>Un canal directo para enviar medidas, dudas y detalles del trabajo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <div class="section-heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Atención directa para cotizaciones y consultas</h2>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:contacto@barracahuaquen.cl">
+            <span>Correo</span>
+            contacto@barracahuaquen.cl
+          </a>
+          <a class="contact-item" href="https://wa.me/56950159793" target="_blank" rel="noopener">
+            <span>WhatsApp</span>
+            +56 9 5015 9793
+          </a>
+          <a class="contact-item" href="https://wa.me/56950159793" target="_blank" rel="noopener">
+            <span>Atención</span>
+            Atención directa por WhatsApp
+          </a>
+          <a class="contact-item" href="https://www.instagram.com/barracahuaquen" target="_blank" rel="noopener">
+            <span>Instagram</span>
+            @barracahuaquen
+          </a>
+          <a
+            class="contact-item"
+            href="https://www.facebook.com/search/top?q=Barraca%20de%20Fierro%20Huaqu%C3%A9n"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Facebook</span>
+            Barraca de Fierro Huaquén
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Fuerza, calidad y confianza para tus proyectos.</p>
+    </footer>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/56950159793?text=Hola%20Barraca%20de%20Fierro%20Huaqu%C3%A9n%2C%20quiero%20solicitar%20un%20presupuesto."
+      target="_blank"
+      rel="noopener"
+      aria-label="Cotizar por WhatsApp"
+    >
+      Cotizar
+    </a>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Barraca de Fierro Huaquén",
+  "short_name": "Barraca Huaquén",
+  "description": "Venta de fierro, trabajos metálicos, ferretería y soluciones a medida.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11100f",
+  "theme_color": "#121212",
+  "lang": "es-CL"
+}

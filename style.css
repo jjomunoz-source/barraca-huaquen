@@ -79,7 +79,7 @@ a {
 
 .brand-logo {
   display: block;
-  width: 280px;
+  width: 112px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -512,7 +512,7 @@ textarea:focus {
   }
 
   .brand-logo {
-    width: 210px;
+    width: 86px;
   }
 
   .hero-actions,
